@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "minerva-elders-base"
+version = "0.1.0"
+description = "Base library for Minerva Elders"
+authors = ["Gabriel Gazola Milan <gabriel.gazola@poli.ufrj.br>"]
+packages = [{ include = "minerva_elders" }]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.10.3"
+pandas = "^2.2.2"
+aiofiles = "^24.1.0"
+asyncpg = "^0.29.0"
+sqlalchemy = "^2.0.32"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

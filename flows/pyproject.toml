@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flows"
+version = "0.1.0"
+description = ""
+authors = ["Gabriel Gazola Milan <gabriel.gazola@poli.ufrj.br>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+minerva-elders-base = { path = "libs/base", develop = true }
+prefect = "^2.20.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
